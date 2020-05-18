@@ -38,26 +38,46 @@ namespace FelidaeExceptionArkanoid
                
 
            }
+           private void gameTimerEvent(object sender, EventArgs e)
+           {
+               if (left == true && player.Left > 0)
+               {
+                   
+               }
+           }
+
+           private void keyisDown(object sender, KeyEventArgs e)
+           {
+               if (e.KeyCode == Keys.Left)
+               {
+                   left = true;
+               }
+
+               if (e.KeyCode == Keys.Right)
+               {
+                   right = true;
+               }
+           }
+
+           private void keyisUp(object sender, KeyEventArgs e)
+           {
+               if (e.KeyCode == Keys.Left)
+               {
+                   left = false;
+               }
+
+               if (e.KeyCode == Keys.Right)
+               {
+                   right = false;
+               }
+           }
           
           
         
 
          
 
-          private void gameTimerEvent(object sender, EventArgs e)
-          {
-              throw new System.NotImplementedException();
-          }
-
-          private void keyisDown(object sender, KeyEventArgs e)
-          {
-              throw new System.NotImplementedException();
-          }
-
-          private void keyisUp(object sender, KeyEventArgs e)
-          {
-              throw new System.NotImplementedException();
-          }
+          
 
 
           

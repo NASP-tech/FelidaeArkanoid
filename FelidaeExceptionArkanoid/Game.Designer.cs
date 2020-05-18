@@ -34,7 +34,7 @@ namespace FelidaeExceptionArkanoid
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources =
                 new System.ComponentModel.ComponentResourceManager(typeof(Game));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.player = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
             this.txtScore = new System.Windows.Forms.Label();
@@ -52,7 +52,7 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).BeginInit();
@@ -70,17 +70,16 @@ namespace FelidaeExceptionArkanoid
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // player
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.InitialImage = ((System.Drawing.Image) (resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(276, 438);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(152, 32);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.player.BackColor = System.Drawing.Color.Transparent;
+            this.player.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("player.BackgroundImage")));
+            this.player.InitialImage = ((System.Drawing.Image) (resources.GetObject("player.InitialImage")));
+            this.player.Location = new System.Drawing.Point(276, 438);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(152, 32);
+            this.player.TabIndex = 0;
+            this.player.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -124,7 +123,6 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox4.Size = new System.Drawing.Size(108, 23);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
-            
             // 
             // pictureBox5
             // 
@@ -133,7 +131,6 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox5.Size = new System.Drawing.Size(108, 23);
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
-            
             // 
             // pictureBox6
             // 
@@ -142,7 +139,6 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox6.Size = new System.Drawing.Size(108, 23);
             this.pictureBox6.TabIndex = 3;
             this.pictureBox6.TabStop = false;
-            
             // 
             // pictureBox7
             // 
@@ -159,16 +155,14 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox8.Size = new System.Drawing.Size(108, 23);
             this.pictureBox8.TabIndex = 3;
             this.pictureBox8.TabStop = false;
-         
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(179, 90);
+            this.pictureBox9.Location = new System.Drawing.Point(178, 90);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(108, 23);
             this.pictureBox9.TabIndex = 3;
             this.pictureBox9.TabStop = false;
-            
             // 
             // pictureBox10
             // 
@@ -186,7 +180,6 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox11.TabIndex = 3;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.Tag = "blocks";
-            
             // 
             // pictureBox12
             // 
@@ -195,7 +188,6 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox12.Size = new System.Drawing.Size(108, 23);
             this.pictureBox12.TabIndex = 3;
             this.pictureBox12.TabStop = false;
-         
             // 
             // pictureBox13
             // 
@@ -212,11 +204,10 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox14.Size = new System.Drawing.Size(108, 23);
             this.pictureBox14.TabIndex = 3;
             this.pictureBox14.TabStop = false;
-     
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Location = new System.Drawing.Point(179, 187);
+            this.pictureBox15.Location = new System.Drawing.Point(178, 187);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(108, 23);
             this.pictureBox15.TabIndex = 3;
@@ -229,7 +220,6 @@ namespace FelidaeExceptionArkanoid
             this.pictureBox16.Size = new System.Drawing.Size(108, 23);
             this.pictureBox16.TabIndex = 3;
             this.pictureBox16.TabStop = false;
-           
             // 
             // Game
             // 
@@ -254,15 +244,14 @@ namespace FelidaeExceptionArkanoid
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.player);
             this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
-            
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keyisDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyisUp);
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).EndInit();
@@ -283,7 +272,6 @@ namespace FelidaeExceptionArkanoid
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Timer gameTimer;
         private System.Windows.Forms.Label txtScore;
@@ -301,5 +289,6 @@ namespace FelidaeExceptionArkanoid
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox player;
     }
 }
