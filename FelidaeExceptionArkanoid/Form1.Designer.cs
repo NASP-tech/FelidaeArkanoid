@@ -42,9 +42,10 @@
             this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPlay.Font = new System.Drawing.Font("Comic Sans MS", 15.9F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnPlay.Location = new System.Drawing.Point(724, 618);
+            this.btnPlay.Location = new System.Drawing.Point(299, 226);
+            this.btnPlay.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(461, 200);
+            this.btnPlay.Size = new System.Drawing.Size(190, 73);
             this.btnPlay.TabIndex = 1;
             this.btnPlay.Text = "Play!";
             this.btnPlay.UseVisualStyleBackColor = false;
@@ -56,9 +57,10 @@
             this.btnScores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnScores.Font = new System.Drawing.Font("Comic Sans MS", 15.9F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnScores.Location = new System.Drawing.Point(724, 1006);
+            this.btnScores.Location = new System.Drawing.Point(299, 368);
+            this.btnScores.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnScores.Name = "btnScores";
-            this.btnScores.Size = new System.Drawing.Size(443, 220);
+            this.btnScores.Size = new System.Drawing.Size(182, 81);
             this.btnScores.TabIndex = 2;
             this.btnScores.Text = "Scoreboard";
             this.btnScores.UseVisualStyleBackColor = false;
@@ -70,9 +72,10 @@
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnExit.Font = new System.Drawing.Font("Comic Sans MS", 15.9F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnExit.Location = new System.Drawing.Point(724, 1411);
+            this.btnExit.Location = new System.Drawing.Point(299, 516);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(443, 211);
+            this.btnExit.Size = new System.Drawing.Size(182, 77);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -80,15 +83,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1897, 1660);
+            this.ClientSize = new System.Drawing.Size(565, 441);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnScores);
             this.Controls.Add(this.btnPlay);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
