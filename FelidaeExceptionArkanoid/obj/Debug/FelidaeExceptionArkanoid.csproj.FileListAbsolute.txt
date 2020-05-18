@@ -1,0 +1,13 @@
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\bin\Debug\FelidaeExceptionArkanoid.exe.config
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\bin\Debug\FelidaeExceptionArkanoid.exe
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\bin\Debug\FelidaeExceptionArkanoid.pdb
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.csprojAssemblyReference.cache
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.Properties.Resources.resources
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.csproj.GenerateResource.cache
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.csproj.CoreCompileInputs.cache
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.exe
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.pdb
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.Form1.resources
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.Game.resources
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.Scoreboard.resources
+C:\Users\Nathy\Documents\GitHub\FelidaeArkanoid\FelidaeExceptionArkanoid\obj\Debug\FelidaeExceptionArkanoid.User.resources

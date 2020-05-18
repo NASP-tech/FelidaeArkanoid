@@ -16,5 +16,34 @@ namespace FelidaeExceptionArkanoid
         {
             InitializeComponent();
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            User User = new User();
+            User.Show();
+            this.Hide();
+        }
+
+        private void btnScores_Click(object sender, EventArgs e)
+        {
+            Scoreboard Score = new Scoreboard();
+            Score.Show();
+            this.Hide();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Do you want to exit to the game?", 
+                        "Exit Button", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                                
+                     if(result == DialogResult.Yes)
+                     {
+                       this.Close();
+                     }
+                     else
+                     {
+                        //No se hace nada 
+                     }
+        }
     }
 }
