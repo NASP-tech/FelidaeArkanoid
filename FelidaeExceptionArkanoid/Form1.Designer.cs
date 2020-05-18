@@ -42,7 +42,7 @@
             this.btnPlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPlay.Font = new System.Drawing.Font("Comic Sans MS", 15.9F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnPlay.Location = new System.Drawing.Point(797, 613);
+            this.btnPlay.Location = new System.Drawing.Point(724, 618);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(461, 200);
             this.btnPlay.TabIndex = 1;
@@ -56,7 +56,7 @@
             this.btnScores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnScores.Font = new System.Drawing.Font("Comic Sans MS", 15.9F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnScores.Location = new System.Drawing.Point(797, 1001);
+            this.btnScores.Location = new System.Drawing.Point(724, 1006);
             this.btnScores.Name = "btnScores";
             this.btnScores.Size = new System.Drawing.Size(443, 220);
             this.btnScores.TabIndex = 2;
@@ -70,7 +70,7 @@
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnExit.Font = new System.Drawing.Font("Comic Sans MS", 15.9F, System.Drawing.FontStyle.Bold,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.btnExit.Location = new System.Drawing.Point(797, 1406);
+            this.btnExit.Location = new System.Drawing.Point(724, 1411);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(443, 211);
             this.btnExit.TabIndex = 3;
